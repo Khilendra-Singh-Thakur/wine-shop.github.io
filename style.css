@@ -1,0 +1,112 @@
+html{
+    font-size: 20px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header::before{
+    background: url('images/pexels-skitterphoto-2101186.jpg');
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.3;
+    background-size: cover;
+}
+body{
+    background-color: #222;
+    color: white;
+}
+
+.header_before{
+    width: 80vw;
+    margin: auto;
+    color: yellow;
+    background-color: yellow;
+    padding: .3rem;
+    border-radius: 1rem; 
+}
+
+header{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 20px;
+    justify-content: space-between;
+    /* border: 3px solid red; */
+    flex-wrap: wrap;
+}
+
+.header_span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: rgb(123, 171, 223);
+    text-align: right;
+}
+
+.logo{
+    
+    /* border: 3px solid red; */
+}
+
+.logo h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: rgb(228, 228, 153);
+    text-shadow: yellow 5px 5px 8px;
+}
+
+.logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    text-shadow: white 3px 3px 8px;
+}
+
+.right_header{
+    padding-top: 10px;
+}
+
+nav{
+    display:flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom:.4rem;
+    box-shadow: .20rem .10rem .20rem .20rem #444;
+    border-radius: 30px;
+    /* border: 4px solid red; */
+}
+
+nav ul{
+    display: flex;
+    text-align: center;
+    /* border: 4px solid red; */
+}
+
+nav > ul li{
+    /* border: 4px solid red; */
+    padding: 0rem 1.4rem;
+    list-style: none;
+    font-family: fantasy;
+    font-weight: 700;
+}
+
+nav > ul li:hover{
+    border-bottom: yellow;
+    background-color:#879;
+    border-radius: 1.5rem;
+    color: rgb(123, 171, 223);
+}
+
+#section-a img{
+    display: block;
+    margin: auto;
+    margin-top: 1.5rem;
+    border-radius: 1rem;
+    width: 82vw;
+    height: 80vh;
+}
