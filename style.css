@@ -27,6 +27,8 @@
         margin-bottom: 2rem;
         padding-bottom: 100vh;
         z-index: -1;
+        box-shadow: -.2rem -.2rem 2.0rem 0.5rem black, -.2rem -.2rem 2.0rem 0.3rem black;
+        border-radius: 1.6rem;
         /* margin: 2rem 0; */
     }
     
@@ -66,9 +68,9 @@
         text-align: right;
     }
     
-    .logo {
-        /* border: 3px solid red; */
-    }
+    /* .logo {
+        border: 3px solid red;
+    } */
     
     .logo h1 {
         font-family: 'Pacifico', cursive;
@@ -222,9 +224,9 @@
         margin-left: 4rem;
     }
     
-    #section-c div {
-        /* padding-right: 5rem; */
-    }
+    /* #section-c div {
+        padding-right: 5rem;
+    } */
     
     #section-d {
         display: block;
