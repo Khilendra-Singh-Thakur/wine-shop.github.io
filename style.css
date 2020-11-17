@@ -168,8 +168,8 @@
         /* height: 100vh; */
         /* box-sizing: border-box; */
         /* justify-content: space-between;
-    box-sizing: border-box;
-    width: 80vw; */
+        box-sizing: border-box;
+        width: 80vw; */
     }
     
     .gallary {
@@ -177,6 +177,7 @@
         width: 25vw;
         height: 40vh;
         margin: auto;
+        box-shadow: -.2rem -.2rem 2.0rem 0.5rem black, -.2rem -.2rem 2.0rem 0.3rem black;
         /* border: 2px solid red; */
     }
     
@@ -189,7 +190,7 @@
     margin-right: auto; */
         /* other codes */
         width: 98%;
-        border: .15rem solid #555;
+        /* border: .15rem solid #555; */
         height: 98%;
     }
     
